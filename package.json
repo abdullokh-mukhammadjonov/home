@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://github.com/abdullokh-mukhammadjonov/home",
+  "homepage": "https://abdullokh-mukhammadjonov.github.io/home",
   "version": "2.0.0",
   "private": true,
   "author": {
@@ -36,8 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "custom-deploy": "node pages.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
