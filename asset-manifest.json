@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/abdullokh-mukhammadjonov/home/static/css/main.94d5a92e.chunk.css",
+    "main.js": "/abdullokh-mukhammadjonov/home/static/js/main.b4943672.chunk.js",
+    "main.js.map": "/abdullokh-mukhammadjonov/home/static/js/main.b4943672.chunk.js.map",
+    "runtime-main.js": "/abdullokh-mukhammadjonov/home/static/js/runtime-main.dab3bc56.js",
+    "runtime-main.js.map": "/abdullokh-mukhammadjonov/home/static/js/runtime-main.dab3bc56.js.map",
+    "static/js/2.3d624985.chunk.js": "/abdullokh-mukhammadjonov/home/static/js/2.3d624985.chunk.js",
+    "static/js/2.3d624985.chunk.js.map": "/abdullokh-mukhammadjonov/home/static/js/2.3d624985.chunk.js.map",
+    "index.html": "/abdullokh-mukhammadjonov/home/index.html",
+    "precache-manifest.50d52802c97cdfe6145de719976a5656.js": "/abdullokh-mukhammadjonov/home/precache-manifest.50d52802c97cdfe6145de719976a5656.js",
+    "service-worker.js": "/abdullokh-mukhammadjonov/home/service-worker.js",
+    "static/css/main.94d5a92e.chunk.css.map": "/abdullokh-mukhammadjonov/home/static/css/main.94d5a92e.chunk.css.map",
+    "static/js/2.3d624985.chunk.js.LICENSE.txt": "/abdullokh-mukhammadjonov/home/static/js/2.3d624985.chunk.js.LICENSE.txt",
+    "static/media/profile.jpg": "/abdullokh-mukhammadjonov/home/static/media/profile.3214c10c.jpg",
+    "static/media/resume.pdf": "/abdullokh-mukhammadjonov/home/static/media/resume.d56ef519.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dab3bc56.js",
+    "static/js/2.3d624985.chunk.js",
+    "static/css/main.94d5a92e.chunk.css",
+    "static/js/main.b4943672.chunk.js"
+  ]
+}
