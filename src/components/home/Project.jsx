@@ -14,13 +14,10 @@ const dummyProject = {
   pushed_at: null,
 };
 const API = "https://api.github.com";
-// const gitHubQuery = "/repos?sort=updated&direction=desc";
-// const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 // https://api.github.com/users/abdullokh-mukhammadjonov
 // https://api.github.com/repos/abdullokh-mukhammadjonov/cp437
 
 const Project = ({ heading, username, length, specfic }) => {
-  // const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const ReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
     dummyProject
@@ -31,11 +28,6 @@ const Project = ({ heading, username, length, specfic }) => {
   const fetchRepos = useCallback(async () => {
     let repoList = [];
     try {
-      // getting all repos
-      // const response = await axios.get(allReposAPI);
-      // slicing to the length
-      // repoList = [...response.data.slice(0, length)];
-      // adding specified repos
       try {
         for (let repoName of specfic) {
           const response = await axios.get(`${ReposAPI}/${repoName}`);
@@ -44,8 +36,6 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
-      // setting projectArray
-      // TODO: remove the duplication.
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);
