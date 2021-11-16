@@ -16,16 +16,17 @@ export default function App() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col border border-success" style={{display: 'flex', padding: '0'}}>
+        <div className="col" style={{display: 'flex', padding: '0'}}>
+          <div style={{marginLeft: '15px'}}>
             <Document
-              // style={{width: '100%'}}
               file={cvLink}
               width={width}
               onLoadSuccess={onDocumentLoadSuccess}
               onLoadError={console.error}
             >
-            <Page pageNumber={1} width={1000} size="A4"/>
-            </Document>       
+            <Page pageNumber={1} width={1100} size="A4"/>
+            </Document> 
+          </div>      
         </div>
       </div>
     </div>
